@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -77,7 +78,7 @@ h2.title{
 
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
 
     display:block;
     margin: 0 auto;
@@ -116,4 +117,231 @@ h2.title{
     display: block;
     margin: 0 auto;
     margin-top: 13px;
+}
+
+.waiting{
+    min-height: 604px;
+    background-color: #efefef;
+    padding:85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header{
+    
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
+
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader{
+
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;   
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+    width: 339px;
+    vertical-align: top;
+
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+    margin-top:33px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #4a4a4a;
+
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header{    
+
+    margin-left: 391px;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.optimization .optimization_text{
+
+    margin-top: 25px;
+    margin-left: 391px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    color: #4a4a4a;
+}
+
+.optimization .optimization_text span{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img{
+    position: absolute;
+    top: -54px;
+    left: -240px; 
+    z-index: -1;
+}
+
+.finish{
+    min-height: 447px;
+    padding :86px 0 79px 0;
+    background: url(../img/bg/second_bg.jpg) center center/cover no-repeat;
+}
+
+.finish .finish_header{
+    color: white;
+}
+
+.finish .finish_wrapper{
+    margin-top:41px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top:25px;
+    text-align:center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    line-height:20px;
+    color: #efefef;
+}
+
+.gift{
+    min-height: 629px;
+    background-color: #efefef;
+    padding:65px 0 65px 0;
+}
+
+.gift .gift_icon{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text{
+    margin-top: 32px;
+    color:#252525;
+    font-family: Roboto-Regular;
+    font-size:30px;
+    text-align:center;
+}
+
+.gift .gift_btn {
+    margin-top: 39px;
+}
+
+.first{
+    min-height: 386px;
+    padding: 62px 0 47px 0;
+    text-align: center;
+}
+
+.first .first_img{
+    display:block;
+    margin: 0 auto;
+}
+
+.first .first_text{
+
+    margin-top: 28px;
+    color:#252525;
+    font-family:Roboto-Regular;
+    font-size:30px;
+    text-transform: uppercase;
+}
+
+.first .first_date{
+    margin-top: 23px;
+    color:#299CBD;
+    font-family:Roboto-Black;
+    font-size:36px;
+    text-transform: uppercase;
+}
+
+.first .first_text2{
+    margin-top: 19px;
+    color:#4A4A4A;
+    font-family:Roboto-Regular;
+    font-size:23px;
+}
+
+footer{
+    min-height: 167px;
+    background-color:#1A1A1A;
+    padding: 47px 0 52px 0;
+}
+
+footer .hrefs{
+    display:flex;
+    justify-content: center;
+    color:#888888;
+    font-size:15px;
+}
+
+footer .hrefs a{
+    color: #888888;
+    font-size:15px;
+}
+
+
+footer .footer_call_us{
+    text-align: center;
+    color: #888888;
+    font-size:15px;
 }
